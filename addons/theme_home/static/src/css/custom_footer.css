@@ -1,0 +1,76 @@
+.clean-footer {
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 14px;
+    padding: 40px 20px 80px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 20px;
+    color: #777;
+    font-size: 13px;
+}
+
+.contact-chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chat-button {
+    background-color: #f42809;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.chat-button:hover {
+    background-color: red;
+}
+
+.chat-button img {
+    height: 20px;
+    margin-left: 10px;
+}

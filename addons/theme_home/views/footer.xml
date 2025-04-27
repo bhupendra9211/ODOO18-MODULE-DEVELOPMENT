@@ -1,0 +1,55 @@
+<odoo>
+    <template id="custom_footer" inherit_id="website.layout" name="Clean Footer">
+        <xpath expr="//footer" position="replace">
+            <footer class="clean-footer">
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h4>Contact</h4>
+                        <p>321-323 High Road, Chadwell Heath, Essex, RM6 6AX, UK</p>
+                        <p><strong>Email:</strong> info@businassist.com</p>
+                        <p><strong>Call:</strong> +44 (0) 30 30 40 123 9</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Virtual Offices</h4>
+                        <ul>
+                            <li>East London</li>
+                            <li>Hatton Garden</li>
+                            <li>Oxford Street</li>
+                            <li>Cardiff, Belfast</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li>Data Processing</li>
+                            <li>Call Answering</li>
+                            <li>Live Chat Support</li>
+                            <li>Virtual Assistants</li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Contact</li>
+                            <li>Terms</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>copy; 2023 <strong>BusinAssist</strong>. All rights reserved.</p>
+                    <p>Registered in England Wales - Company No. 10343713</p>
+                </div>
+
+                <div class="contact-chat-btn">
+                    <button class="chat-button">
+                        <span>Contact Us / Chat</span>
+                        <img src="/theme_home/static/src/img/chat.svg" alt="chat" />
+                    </button>
+                </div>
+            </footer>
+        </xpath>
+    </template>
+</odoo>

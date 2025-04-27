@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <odoo>
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//header" position="replace">
+            <header>
+                <div class="custom-header">
+                    <div class="custom-header-top">
+                        <div class="contact-info">
+                            <img src="/theme_home/static/src/img/logo.svg" alt="BusinAssist Logo" style="height: 72px; width: 176px;"/>
+
+                            <div class="contact-block">
+                                <img src="/theme_home/static/src/img/email.png" alt="Email"/>
+                                <span>
+                                    Email us: <br/>
+                                    <a href="mailto:info@businassist.com" style="color: black;">info@businassist.com</a>
+                                </span>
+                            </div>
+
+                            <div class="contact-block">
+                                <img src="/theme_home/static/src/img/phone-call.svg" alt="Phone"/>
+                                <span>
+                                    Call us: <br/>
+                                    <a href="tel:+44123456789" style="color: black;">+44 123 456 789</a>
+                                </span>
+                            </div>
+
+                            <div class="contact-block">
+                                <img src="/theme_home/static/src/img/whatsapp.svg" alt="WhatsApp"/>
+                                <span>
+                                    WhatsApp: <br/>
+                                    <a href="#" style="color: black;">Message us on WhatsApp</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav class="custom-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Back Office Solutions &#9662;</a></li>
+                            <li><a href="#">Company Services &#9662;</a></li>
+                            <li><a href="#">Communications &#9662;</a></li>
+                            <li><a href="#">Virtual Offices &#9662;</a></li>
+                            <li><a href="#">Customer Portal</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </xpath>
+    </template>
+</odoo> -->
+<odoo>
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//header" position="replace">
+            <header>
+                <div class="custom-header">
+                    <div class="custom-header-inner">
+                        <img src="/theme_home/static/src/img/logo.svg" alt="BusinAssist Logo" class="custom-logo"/>
+
+                        <div class="custom-right-block">
+                            <div class="contact-row">
+                                <div class="contact-block">
+                                    <img src="/theme_home/static/src/img/email.png" alt="Email"/>
+                                    <span>
+                                        Email us: <br/>
+                                        <a href="mailto:info@businassist.com" style="color: black;">info@businassist.com</a>
+                                    </span>
+                                </div>
+
+                                <div class="contact-block">
+                                    <img src="/theme_home/static/src/img/phone-call.svg" alt="Phone"/>
+                                    <span>
+                                        Call us: <br/>
+                                        <a href="tel:+44123456789" style="color: black;">+44 123 456 789</a>
+                                    </span>
+                                </div>
+
+                                <div class="contact-block">
+                                    <img src="/theme_home/static/src/img/whatsapp.svg" alt="WhatsApp"/>
+                                    <span>
+                                        WhatsApp: <br/>
+                                        <a href="#" style="color: black;">Message us on WhatsApp</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <nav class="custom-nav">
+                                <ul>
+                                    <li><a href="#">HOME</a></li>
+                                    <li><a href="#">ORDER ONLINE</a></li>
+                                    <li><a href="#">SPECIALS</a></li>
+                                    <li><a href="#">LOCATIONS</a></li>
+                                    <li><a href="#">MENU</a></li>
+                                    <li><a href="#">GIFT CARDS</a></li>
+                                    <li><a href="#">MAIL ORDER</a></li>
+                                    <li><a href="#">APPAREL</a></li>
+                                    <li><a href="#">MORE &#9662;</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </xpath>
+    </template>
+</odoo>

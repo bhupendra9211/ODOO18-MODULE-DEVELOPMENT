@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+  <template id="custom_hero" inherit_id="website.homepage" name="Home">
+    <xpath expr="//t[@t-call='website.layout']" position="replace">
+      <t t-call="website.layout">
+        <t t-set="pageName" t-value="'homepage'" />
+        <div id="wrap" class="oe_structure">
+          <section class="hero">
+            <div class="hero-content">
+              <h1>Welcome to Valentino’s</h1>
+              <p>Delicious Italian Cuisine in the Heart of the City</p>
+              <a href="/menu" class="btn primary">View Menu</a>
+            </div>
+          </section>
+
+          <section class="about">
+            <div class="about-container">
+              <div class="about-text">
+                <h1> "OPEN FOR DELIVERY, CARRYOUT," <br /> "&amp; CURBSIDE PICKUP" </h1>
+              </div>
+              <a href="/menu" class="btn primary">ORDER FROM YOUR LOCAL VALENTINO'S </a>
+              <!-- <div class="about-image">
+                        <img src="/theme_home/static/src/img/bg-about.jpg" alt="Inside Valentino's"/>
+                      </div> -->
+            </div>
+          </section>
+        </div>
+
+        <section class="specials">
+          <h2>This Week’s Specials</h2>
+          <div class="specials-grid">
+            <div class="special-card">
+              <img src="/theme_home/static/src/img/hero-bg.jpg" alt="Truffle Risotto" />
+              <h3>Truffle Risotto</h3>
+              <p>Creamy risotto with black truffle shavings</p>
+            </div>
+            <div class="special-card">
+              <img src="/theme_home/static/src/img/hero-bg.jpg" alt="Seafood Linguine" />
+              <h3>Seafood Linguine</h3>
+              <p>Fresh linguine with clams, mussels and prawns</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="reservation">
+          <h2>Book a Table</h2>
+          <p>Reserve your spot easily online and enjoy a night to remember.</p>
+          <a href="/booking" class="btn secondary">Make a Reservation</a>
+        </section>
+
+
+      </t>
+    </xpath>
+  </template>
+</odoo>
