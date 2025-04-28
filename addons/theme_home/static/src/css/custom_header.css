@@ -139,6 +139,7 @@
 
 .custom-nav a:hover {
     color: #ec3a12;
+    text-decoration-line: underline;
 }
 
 

@@ -25,31 +25,31 @@
                       </div> -->
             </div>
           </section>
+
+
+          <section class="specials">
+            <h2>This Week’s Specials</h2>
+            <div class="specials-grid">
+              <div class="special-card">
+                <img src="/theme_home/static/src/img/hero-bg.jpg" alt="Truffle Risotto" />
+                <h3>Truffle Risotto</h3>
+                <p>Creamy risotto with black truffle shavings</p>
+              </div>
+              <div class="special-card">
+                <img src="/theme_home/static/src/img/hero-bg.jpg" alt="Seafood Linguine" />
+                <h3>Seafood Linguine</h3>
+                <p>Fresh linguine with clams, mussels and prawns</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="reservation">
+            <h2>Book a Table</h2>
+            <p>Reserve your spot easily online and enjoy a night to remember.</p>
+            <a href="/booking" class="btn secondary">Make a Reservation</a>
+          </section>
+
         </div>
-
-        <section class="specials">
-          <h2>This Week’s Specials</h2>
-          <div class="specials-grid">
-            <div class="special-card">
-              <img src="/theme_home/static/src/img/hero-bg.jpg" alt="Truffle Risotto" />
-              <h3>Truffle Risotto</h3>
-              <p>Creamy risotto with black truffle shavings</p>
-            </div>
-            <div class="special-card">
-              <img src="/theme_home/static/src/img/hero-bg.jpg" alt="Seafood Linguine" />
-              <h3>Seafood Linguine</h3>
-              <p>Fresh linguine with clams, mussels and prawns</p>
-            </div>
-          </div>
-        </section>
-
-        <section class="reservation">
-          <h2>Book a Table</h2>
-          <p>Reserve your spot easily online and enjoy a night to remember.</p>
-          <a href="/booking" class="btn secondary">Make a Reservation</a>
-        </section>
-
-
       </t>
     </xpath>
   </template>
