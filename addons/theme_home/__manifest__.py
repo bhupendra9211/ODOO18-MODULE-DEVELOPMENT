@@ -14,11 +14,16 @@
         'views/footer.xml',
     ],
     'assets': {
+    # 'web._assets_primary_variables':[
+    #     'theme_home/static/src/scss/primary_variables.scss',
+    # ],
     'web.assets_frontend': [
         'theme_home/static/src/css/custom_header.css',
         'theme_home/static/src/css/custom_hero.css',
         'theme_home/static/src/css/custom_footer.css',
+        # 'theme_home/static/src/scss/styles.scss',
     ],
+
     },
     'images': [],
     'license': 'LGPL-3',
