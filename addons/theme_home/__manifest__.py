@@ -12,9 +12,8 @@
         'views/header.xml',
         'views/hero.xml',
         'views/footer.xml',
-        'views/menu_page.xml',
+        'views/services_page.xml',
         'views/menus.xml',
-        'views/order_page.xml',
     ],
     'assets': {
     # 'web._assets_primary_variables':[
@@ -24,6 +23,7 @@
         'theme_home/static/src/css/custom_header.css',
         'theme_home/static/src/css/custom_hero.css',
         'theme_home/static/src/css/custom_footer.css',
+        'theme_home/static/src/css/custom_menus.css',
         # 'theme_home/static/src/scss/styles.scss',
     ],
 

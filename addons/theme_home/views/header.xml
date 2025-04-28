@@ -84,7 +84,7 @@
                                 </div>
                             </div>
 
-                            <nav class="custom-nav">
+                            <nav class="custom-nav navbar">
                                 <ul>
                                     <t t-foreach="website.menu_id.child_id" t-as="submenu">
                                         <t t-call="website.submenu">
