@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <data>
-        <record id="theme_home.service_page" model="website.page">
-            <field name="name">Services</field>
+        <record id="theme_home.order-online_page" model="website.page">
+            <field name="name">ORDER ONLINE</field>
             <field name="type">qweb</field>
-            <field name="url">/service</field>
+            <field name="url">/order-online</field>
             <field name="is_published">True</field>
-            <field name="key">theme_home.service_page</field>
+            <field name="key">theme_home.order-online_page</field>
             <field name="arch" type="xml">
-                <t name="Services" t-name="theme_home.service_page">
+                <t name="Services" t-name="theme_home.order-online_page">
                     <t t-call="website.layout">
                         <div class="oe_structure"/>
                         <section class="s_cover parallax bg-black-50 pt96 pb96" data-scroll-background-ratio="1">

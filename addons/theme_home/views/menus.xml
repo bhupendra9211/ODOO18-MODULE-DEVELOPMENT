@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <data>
-        <record id="menu_service" model="website.menu">
-            <field name="name">Services</field>
-            <field name="url">/service</field>
+        <record id="menu_order-online" model="website.menu">
+            <field name="name">ORDER ONLINE</field>
+            <field name="url">/order-online</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">20</field>
         </record>
-
-        <record id="menu_rent" model="website.menu">
-            <field name="name">Property for Rent</field>
-            <field name="url">/rent</field>
+        <record id="menu_spcials" model="website.menu">
+            <field name="name">SPECIALS</field>
+            <field name="url">/specials</field>
             <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence" type="int">15</field>
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_locations" model="website.menu">
+            <field name="name">LOCATIONS</field>
+            <field name="url">/locations</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">40</field>
+        </record>
+        <record id="menu_menu" model="website.menu">
+            <field name="name">MENU</field>
+            <field name="url">/menu</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">50</field>
+        </record>
+        <record id="menu_gift-cards" model="website.menu">
+            <field name="name">GIFT CARDS</field>
+            <field name="url">/gift-cards</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">60</field>
+        </record>
+        <record id="menu_mail-order" model="website.menu">
+            <field name="name">MAIL ORDER</field>
+            <field name="url">/mail-order</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">70</field>
+        </record>
+        <record id="menu_apparel" model="website.menu">
+            <field name="name">APPAREL</field>
+            <field name="url">/apparel</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">80</field>
+        </record>
+
+        <record id="menu_more" model="website.menu">
+            <field name="name">MORE</field>
+            <field name="url">/more</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">90</field>
             <field name="is_mega_menu">True</field>
             <field name="mega_menu_content" type="html">
                 <section class="custom-mega-menu">

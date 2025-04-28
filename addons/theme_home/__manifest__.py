@@ -12,7 +12,7 @@
         'views/header.xml',
         'views/hero.xml',
         'views/footer.xml',
-        'views/services_page.xml',
+        'views/order-online_page.xml',
         'views/menus.xml',
     ],
     'assets': {
