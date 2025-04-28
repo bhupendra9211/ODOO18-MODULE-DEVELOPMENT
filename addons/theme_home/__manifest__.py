@@ -12,6 +12,9 @@
         'views/header.xml',
         'views/hero.xml',
         'views/footer.xml',
+        'views/menu_page.xml',
+        'views/menus.xml',
+        'views/order_page.xml',
     ],
     'assets': {
     # 'web._assets_primary_variables':[

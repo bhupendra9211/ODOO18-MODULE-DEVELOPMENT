@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+        <record id="theme_home.menu_page" model="website.page">
+            <field name="name">MENU</field>
+            <field name="type">qweb</field>
+            <field name="url">/menu</field>
+            <!-- <field name="website_indexed" eval="False"/> -->
+            <field name="is_published">True</field>
+            <field name="key">theme_home.menu_page</field>
+            <field name="arch" type="xml">
+                <t name="Menu" t-name="theme_home.menu_page">
+                    <t t-call="website.layout">
+                        <div class="container">
+                            This is munu page
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
+</odoo>
