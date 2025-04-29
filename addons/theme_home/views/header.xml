@@ -84,17 +84,23 @@
                                 </div>
                             </div>
 
-                            <nav class="custom-nav">
+                            <nav class="custom-nav navbar">
                                 <ul>
-                                    <li><a href="#">HOME</a></li>
+                                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                        <t t-call="website.submenu">
+                                            <t t-set="item_class" t-valuef="nav-item"/>
+                                            <t t-set="link_class" t-valuef="nav-link"/>
+                                        </t>
+                                    </t>
+                                    <!-- <li><a href="/">HOME</a></li>
                                     <li><a href="#">ORDER ONLINE</a></li>
                                     <li><a href="#">SPECIALS</a></li>
                                     <li><a href="#">LOCATIONS</a></li>
-                                    <li><a href="#">MENU</a></li>
+                                    <li><a href="/menu">MENU</a></li>
                                     <li><a href="#">GIFT CARDS</a></li>
                                     <li><a href="#">MAIL ORDER</a></li>
                                     <li><a href="#">APPAREL</a></li>
-                                    <li><a href="#">MORE &#9662;</a></li>
+                                    <li><a href="#">MORE &#9662;</a></li> -->
                                 </ul>
                             </nav>
                         </div>
