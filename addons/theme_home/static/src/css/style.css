@@ -1,0 +1,11 @@
+.hello-world {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    border: 2px solid #e9ecef;
+    margin: 20px 0;
+}
+
+.hello-world h1 {
+    color: #2e6da4;
+}

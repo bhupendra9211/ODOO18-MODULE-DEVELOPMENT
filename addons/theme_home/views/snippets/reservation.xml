@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="reservation_snippet" name="Reservation Snippet">
+        <section class="reservation">
+            <h2>Book a Table</h2>
+            <p>Reserve your spot easily online and enjoy a night to remember.</p>
+            <a href="/booking" class="btn secondary">Make a Reservation</a>
+        </section>
+    </template>
+</odoo>
