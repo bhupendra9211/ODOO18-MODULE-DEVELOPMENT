@@ -14,6 +14,8 @@
         'views/footer.xml',
         'views/order-online_page.xml',
         'views/menus.xml',
+        'views/snippets/reservation.xml',
+        'views/snippets/snippets.xml',
     ],
     'assets': {
     # 'web._assets_primary_variables':[
@@ -24,10 +26,13 @@
         'theme_home/static/src/css/custom_hero.css',
         'theme_home/static/src/css/custom_footer.css',
         'theme_home/static/src/css/custom_menus.css',
+        'theme_home/static/src/css/style.css',
         # 'theme_home/static/src/scss/styles.scss',
     ],
 
     },
     'images': [],
     'license': 'LGPL-3',
+    "installable": True,
+    "application": True,
 }

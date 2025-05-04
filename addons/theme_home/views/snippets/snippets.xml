@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="hello_world_snippet" name="Hello World Snippet">
+        <section class="hello-world">
+            <div class="container">
+                <h1>Hello World!</h1>
+                <p class="text-muted">This is my first Odoo snippet</p>
+            </div>
+        </section>
+    </template>
+
+    <!-- <template id="reservation_snippet" name="Reservation Snippet">
+        <section class="reservation">
+            <h2>Book a Table</h2>
+            <p>Reserve your spot easily online and enjoy a night to remember.</p>
+            <a href="/booking" class="btn secondary">Make a Reservation</a>
+        </section>
+    </template> -->
+
+    <template id="snippets" inherit_id="website.snippets">
+        <xpath expr="//t[@id='installed_snippets_hook']" position="after">
+            <t t-snippet="theme_home.hello_world_snippet"
+                t-thumbnail="/website/static/src/img/snippets_thumbs/s_event_upcoming_snippet.svg" />
+            <t t-snippet="theme_home.reservation_snippet"
+                t-thumbnail="/website/static/src/img/snippets_thumbs/s_event_upcoming_snippet.svg" />
+        </xpath>
+    </template>
+</odoo>
