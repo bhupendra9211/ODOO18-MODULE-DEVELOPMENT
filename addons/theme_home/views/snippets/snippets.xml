@@ -21,7 +21,11 @@
         <xpath expr="//t[@id='installed_snippets_hook']" position="after">
             <t t-snippet="theme_home.hello_world_snippet"
                 t-thumbnail="/website/static/src/img/snippets_thumbs/s_event_upcoming_snippet.svg" />
+            <t t-snippet="theme_home.sm_custom_slider"
+                t-thumbnail="/website/static/src/img/snippets_thumbs/s_event_upcoming_snippet.svg" />
             <t t-snippet="theme_home.reservation_snippet"
+                t-thumbnail="/website/static/src/img/snippets_thumbs/s_event_upcoming_snippet.svg" />
+            <t t-snippet="theme_home.new_properties"
                 t-thumbnail="/website/static/src/img/snippets_thumbs/s_event_upcoming_snippet.svg" />
         </xpath>
     </template>

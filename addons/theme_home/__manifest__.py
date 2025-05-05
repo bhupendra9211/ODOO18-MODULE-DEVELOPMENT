@@ -15,18 +15,25 @@
         'views/order-online_page.xml',
         'views/menus.xml',
         'views/snippets/reservation.xml',
+        'views/snippets/custom_carousel.xml',
+        'views/snippets/new-properties.xml',
         'views/snippets/snippets.xml',
+
     ],
     'assets': {
-    # 'web._assets_primary_variables':[
-    #     'theme_home/static/src/scss/primary_variables.scss',
-    # ],
+    'web._assets_primary_variables':[
+        'theme_home/static/src/scss/primary_variables.scss',
+    ],
     'web.assets_frontend': [
         'theme_home/static/src/css/custom_header.css',
         'theme_home/static/src/css/custom_hero.css',
         'theme_home/static/src/css/custom_footer.css',
         'theme_home/static/src/css/custom_menus.css',
+        'theme_home/static/src/css/carousel.css',
         'theme_home/static/src/css/style.css',
+        'theme_home/static/src/js/carousel.js',
+        'theme_home/static/src/scss/styles.scss',
+        'theme_home/static/src/scss/property-agents.scss',
         # 'theme_home/static/src/scss/styles.scss',
     ],
 

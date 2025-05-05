@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="sm_custom_slider" name="Smarten Custom Slider">
+        <section class="sm_slider_cart_container" id="sm_sc_container">
+            <div class="container solution oe_structure o_editable">
+                <div class="content">
+                    <div class="text-content">
+                        <h2 class="title">Solution</h2>
+                        <p class="text"> Milesight provides a range of solutions to<br /> empower a
+                            more productive and effective society. </p>
+                    </div>
+                    <div class="cards">
+                        <div class="cards-wrapper">
+                            <div class="card" data-index="1">
+                                <p class="card__small-title">Video <br /> Surveillance</p>
+                                <div class="card__img">
+                                    <img class="ls-is-cached lazyloaded"
+                                        alt="smart office"
+                                        title="smart office"
+                                        src="custom_slider/static/src/images/indoor-air-quality.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="card" data-index="2">
+                                <p class="card__small-title">Intelligent <br /> Traffic</p>
+                                <div class="card__img">
+                                    <img class="ls-is-cached lazyloaded"
+                                        alt="people counting"
+                                        title="people counting"
+                                        src="custom_slider/static/src/images/intelligent-traffic.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="card" data-index="3">
+                                <p class="card__small-title">Indoor Air <br /> Quality</p>
+                                <div class="card__img">
+                                    <img class="ls-is-cached lazyloaded"
+                                        alt="video surveillance"
+                                        title="video surveillance"
+                                        src="custom_slider/static/src/images/people-counting.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="card" data-index="4">
+                                <p class="card__small-title">Smart<br /> Restroom</p>
+                                <div class="card__img">
+                                    <img class="ls-is-cached lazyloaded"
+                                        alt="video surveillance"
+                                        title="video surveillance"
+                                        src="custom_slider/static/src/images/smart-restroom.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="card" data-index="5">
+                                <p class="card__small-title">Smart <br /> Office</p>
+                                <div class="card__img">
+                                    <img class="ls-is-cached lazyloaded"
+                                        alt="video surveillance"
+                                        title="video surveillance"
+                                        src="custom_slider/static/src/images/video-surveillance.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="card active" data-index="6">
+                                <p class="card__small-title">People <br /> Counting</p>
+                                <div class="card__img">
+                                    <img class="ls-is-cached lazyloaded"
+                                        alt="video surveillance"
+                                        title="video surveillance"
+                                        src="custom_slider/static/src/images/smart-office.jpg" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card__contents">
+                        <div class="card__content">
+                            <h2 class="card__title">Video Surveillance</h2>
+                            <p class="card__text">A total AI video surveillance solution with
+                                cameras, NVRs and video management softwares, meets various
+                                requirements from entry level to high end.</p>
+                            <a class="card__btn" href="#">Learn More</a>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="card__title">Intelligent Traffic</h2>
+                            <p class="card__text">Lead the way towards intelligence, ensuring road
+                                safety and intelligent traffic management and efficient parking
+                                management.</p>
+                            <a class="card__btn" href="#">Learn More</a>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="card__title">Indoor Air Quality</h2>
+                            <p class="card__text">Milesight Indoor Air Quality Solution helps
+                                visualize the air quality through diversified sensors. With
+                                real-time monitoring, occupants can gain actionable insights.</p>
+                            <a class="card__btn" href="#">Learn More</a>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="card__title">Smart Restroom</h2>
+                            <p class="card__text">Multiple products mutually collaborating to
+                                improve bathrooms hygiene, reduce waste, alleviate complaints and
+                                facilitate maintenance.</p>
+                            <a class="card__btn" href="#">Learn More</a>
+                        </div>
+                        <div class="card__content">
+                            <h2 class="card__title">Smart Office</h2>
+                            <p class="card__text">Stay one step ahead with actionable insights to
+                                improve decision-making and explore the potential of workspace for a
+                                smarter office.</p>
+                            <a class="card__btn" href="#">Learn More</a>
+                        </div>
+                        <div class="card__content active">
+                            <h2 class="card__title">People Counting</h2>
+                            <p class="card__text">A reliable and effective way to count people,
+                                makes it easy to understand how many people are in an area at any
+                                time, how they move and periods of peak occupancy.</p>
+                            <a class="card__btn" href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card__prev-btn">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="card__next-btn">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="sm_custom_tab" name="Smarten Custom Tab">
+        <section class="sm_custom_tab_container" id="sm_custom-tab">
+            <div class="container innovation">
+                <div class="container-bg">
+                    <img class="lazyloaded active" alt="d2d bg"
+                        data-src="custom_slider/static/src/images/custom-tab/d2d-bg.jpg"
+                        title="d2d bg" src="custom_slider/static/src/images/custom-tab/d2d-bg.jpg" />
+                    <img class="lazyloaded" alt="image processing bg"
+                        data-src="custom_slider/static/src/images/custom-tab/image-processing-bg.jpg"
+                        title="image processing bg"
+                        src="custom_slider/static/src/images/custom-tab/image-processing-bg.jpg" />
+                    <img class="lazyloaded" alt="ai vca bg"
+                        data-src="custom_slider/static/src/images/custom-tab/ai-vca-bg.jpg"
+                        title="ai vca bg"
+                        src="custom_slider/static/src/images/custom-tab/ai-vca-bg.jpg" />
+                    <img class="lazyloaded" alt="5g bg"
+                        data-src="custom_slider/static/src/images/custom-tab/5g-bg.jpg"
+                        title="5g bg" src="custom_slider/static/src/images/custom-tab/5g-bg.jpg" />
+                    <img class="lazyloaded" alt="lorawan bg"
+                        data-src="custom_slider/static/src/images/custom-tab/lorawan-bg.jpg"
+                        title="lorawan bg"
+                        src="custom_slider/static/src/images/custom-tab/lorawan-bg.jpg" />
+                </div>
+                <div class="content">
+                    <div class="text-content">
+                        <h2 class="title">Innovation</h2>
+                        <p class="text">Milesight strongly believes that innovative technologies are<br />essential
+                            and key to lead success for our partners.</p>
+                        <div
+                            class="swiper swiper--innovation swiper-creative swiper-3d swiper-initialized swiper-vertical swiper-pointer-events swiper-watch-progress">
+                            <div class="swiper-wrapper" id="swiper-wrapper-14ec31598862222c"
+                                aria-live="off" style="transition-duration: 0ms;">
+                                <div class="swiper-slide swiper-slide-duplicate"
+                                    data-swiper-slide-index="0"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 5; transform: translate3d(calc(0px), calc(-600% + 0px), calc(-1000px)) rotateX(-125deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="1 / 5">
+                                    <p>Milesight D2D</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate"
+                                    data-swiper-slide-index="1"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 6; transform: translate3d(calc(0px), calc(-600% - 46px), calc(-1000px)) rotateX(-125deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="2 / 5">
+                                    <p>Image Processing</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate"
+                                    data-swiper-slide-index="2"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 7; transform: translate3d(calc(0px), calc(-600% - 92px), calc(-1000px)) rotateX(-125deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="3 / 5">
+                                    <p>AI VCA</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate"
+                                    data-swiper-slide-index="3"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 8; transform: translate3d(calc(0px), calc(-600% - 138px), calc(-1000px)) rotateX(-125deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="4 / 5">
+                                    <p>5G</p>
+                                </div>
+                                <div
+                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                    data-swiper-slide-index="4"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 9; transform: translate3d(calc(0px), calc(-600% - 184px), calc(-1000px)) rotateX(-125deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="5 / 5">
+                                    <p>LoRaWAN®</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-active"
+                                    data-swiper-slide-index="0"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 10; transform: translate3d(calc(0px), calc(-600% - 230px), calc(-1000px)) rotateX(-125deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="1 / 5">
+                                    <p>Milesight D2D</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-next"
+                                    data-swiper-slide-index="1"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 11; transform: translate3d(calc(0px), calc(-480% - 276px), calc(-800px)) rotateX(-100deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="2 / 5">
+                                    <p>Image Processing</p>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 12; transform: translate3d(calc(0px), calc(-360% - 322px), calc(-600px)) rotateX(-75deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="3 / 5">
+                                    <p>AI VCA</p>
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 13; transform: translate3d(calc(0px), calc(-240% - 368px), calc(-400px)) rotateX(-50deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="4 / 5">
+                                    <p>5G</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-prev"
+                                    data-swiper-slide-index="4"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 14; transform: translate3d(calc(0px), calc(-120% - 414px), calc(-200px)) rotateX(-25deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="5 / 5">
+                                    <p>LoRaWAN®</p>
+                                </div>
+                                <div
+                                    class="swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active"
+                                    data-swiper-slide-index="0"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 15; transform: translate3d(calc(0px), calc(-460px), calc(0px)) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="1 / 5">
+                                    <p>Milesight D2D</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-next"
+                                    data-swiper-slide-index="1"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 14; transform: translate3d(calc(0px), calc(120% - 506px), calc(-200px)) rotateX(25deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="2 / 5">
+                                    <p>Image Processing</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate"
+                                    data-swiper-slide-index="2"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 13; transform: translate3d(calc(0px), calc(240% - 552px), calc(-400px)) rotateX(50deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="3 / 5">
+                                    <p>AI VCA</p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate"
+                                    data-swiper-slide-index="3"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 12; transform: translate3d(calc(0px), calc(360% - 598px), calc(-600px)) rotateX(75deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;"
+                                    role="group" aria-label="4 / 5">
+                                    <p>5G</p>
+                                </div>
+                                <div
+                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                    data-swiper-slide-index="4" role="group" aria-label="5 / 5"
+                                    style="height: 46px; transition-duration: 0ms; z-index: 11; transform: translate3d(calc(0px), calc(480% - 644px), calc(-800px)) rotateX(100deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity: 1;">
+                                    <p>LoRaWAN®</p>
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive"
+                                aria-atomic="true"></span>
+                        </div>
+                    </div>
+                    <div class="img-content">
+                        <div class="card__imgs">
+                            <div class="card__img active">
+                                <img class="lazyloaded" alt="d2d" title="d2d"
+                                    src="custom_slider/static/src/images/custom-tab/d2d.jpg" />
+                            </div>
+                            <div class="card__img">
+                                <img class="lazyloaded" alt="image processing"
+                                    title="image processing"
+                                    src="custom_slider/static/src/images/custom-tab/image-processing.jpg" />
+                            </div>
+                            <div class="card__img">
+                                <img class="lazyloaded" alt="ai vca" title="ai vca"
+                                    src="custom_slider/static/src/images/custom-tab/ai-vca.jpg" />
+                            </div>
+                            <div class="card__img">
+                                <img class="lazyloaded" alt="5g" title="5g"
+                                    src="custom_slider/static/src/images/custom-tab/5g.jpg" />
+                            </div>
+                            <div class="card__img">
+                                <img class="lazyloaded" alt="lorawan" title="lorawan"
+                                    src="custom_slider/static/src/images/custom-tab/lorawan.jpg" />
+                            </div>
+                        </div>
+                        <div class="card__contents">
+                            <div class="card__content active">
+                                <h3 class="card__title">Milesight D2D</h3>
+                                <p class="card__text">Milesight D2D is a device to device
+                                    communication protocol independently develped by Milesight that
+                                    enables Milesight LoRaWAN® node devices to directly communicate
+                                    with one another without a LoRaWAN® Gateway.</p>
+                                <a class="card__btn" href="#"></a>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Image Processing</h3>
+                                <p class="card__text">Milesight is renowned for its superb image
+                                    quality, adopting a range of state-of-the-art processing
+                                    technologies such as Smart IR II, Starlight and 3 in 1 Super WDR
+                                    Pro and so on.</p>
+                                <a class="card__btn" href="#"></a>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">AI VCA</h3>
+                                <p class="card__text">Milesight AI algorithms can filter objects to
+                                    focus precisely on human and vehicles that are crucial in
+                                    security monitoring, greatly enhancing the efficiency of video
+                                    surveillance.</p>
+                                <a class="card__btn" href="#"></a>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">5G</h3>
+                                <p class="card__text">Leveraging 5G technology, Milesight empowers
+                                    business and industry with higher productivity and efficiency
+                                    through massive connectivity and lower latency, accelerating IoT
+                                    strategies to the next level.</p>
+                                <a class="card__btn" href="#"></a>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">LoRaWAN®</h3>
+                                <p class="card__text">Milesight utilize the power of LoRaWAN® to
+                                    solve real-world connectivity challenges and obtain actionable
+                                    insights leading towards better operations.</p>
+                                <a class="card__btn" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="sm_custom_v_slider" name="template_name">
+        <section class="sm_custom_v_slider" id="sm_v_slider">
+            <div class="container stories">
+                <div class="pages">
+                    <div class="pages-wrapper">
+                        <p class="page active">Green Building</p>
+                        <p class="page">Commercial Security</p>
+                        <p class="page">Residential Security</p>
+                        <p class="page">Indoor Air Quality</p>
+                        <p class="page">Energy Efficiency</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <h2 class="title">Success Stories</h2>
+                    <p class="text">Milesight has earned a lot of fame and built a strong reputation
+                        with a ton of success stories in various industries.</p>
+                    <div class="wrapper">
+                        <div class="wrapper-bgs">
+                            <div class="wrapper-bg active">
+                                <img class="lazyloaded"
+                                    alt="case studies milesight headquaters background"
+                                    data-src="custom_slider/static/src/images/success-stories/case-studies-milesight-headquaters-background.jpg?t=1737707207153"
+                                    title="case studies milesight headquaters background"
+                                    src="custom_slider/static/src/images/success-stories/case-studies-milesight-headquaters-background.jpg?t=1737707207153" />
+                            </div>
+                            <div class="wrapper-bg">
+                                <img class="lazyloaded" alt="story3 bg"
+                                    data-src="custom_slider/static/src/images/success-stories/story3-bg.jpg?t=1737707207153"
+                                    title="story3 bg"
+                                    src="custom_slider/static/src/images/success-stories/story3-bg.jpg?t=1737707207153" />
+                            </div>
+                            <div class="wrapper-bg">
+                                <img class="lazyloaded" alt="story1 bg"
+                                    data-src="custom_slider/static/src/images/success-stories/story1-bg.jpg?t=1737707207153"
+                                    title="story1 bg"
+                                    src="custom_slider/static/src/images/success-stories/story1-bg.jpg?t=1737707207153" />
+                            </div>
+                            <div class="wrapper-bg">
+                                <img class="lazyloaded" alt="story2 bg"
+                                    data-src="custom_slider/static/src/images/success-stories/story2-bg.jpg?t=1737707207153"
+                                    title="story2 bg"
+                                    src="custom_slider/static/src/images/success-stories/story2-bg.jpg?t=1737707207153" />
+                            </div>
+                            <div class="wrapper-bg">
+                                <img class="lazyloaded" alt="story4 bg"
+                                    data-src="custom_slider/static/src/images/success-stories/story4-bg.png?t=1737707207153"
+                                    title="story4 bg"
+                                    src="custom_slider/static/src/images/success-stories/story4-bg.png?t=1737707207153" />
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__imgs">
+                                <div class="card__img active">
+                                    <img class="lazyloaded"
+                                        alt="case studies milesight headquaters thumbnail"
+                                        data-src="custom_slider/static/src/images/success-stories/case-studies-milesight-headquaters-thumbnail.jpg?t=1737707207153"
+                                        title="case studies milesight headquaters thumbnail"
+                                        src="custom_slider/static/src/images/success-stories/case-studies-milesight-headquaters-thumbnail.jpg?t=1737707207153" />
+                                </div>
+                                <div class="card__img">
+                                    <img class="lazyloaded" alt="story3"
+                                        data-src="custom_slider/static/src/images/success-stories/story3.jpg?t=1737707207153"
+                                        title="story3"
+                                        src="custom_slider/static/src/images/success-stories/story3.jpg?t=1737707207153" />
+                                </div>
+                                <div class="card__img">
+                                    <img class="lazyloaded" alt="story1"
+                                        data-src="custom_slider/static/src/images/success-stories/story1.jpg?t=1737707207153"
+                                        title="story1"
+                                        src="custom_slider/static/src/images/success-stories/story1.jpg?t=1737707207153" />
+                                </div>
+                                <div class="card__img">
+                                    <img class="lazyloaded" alt="story2"
+                                        data-src="custom_slider/static/src/images/success-stories/story2.jpg?t=1737707207153"
+                                        title="story2"
+                                        src="custom_slider/static/src/images/success-stories/story2.jpg?t=1737707207153" />
+                                </div>
+                                <div class="card__img">
+                                    <img class="lazyloaded" alt="story4"
+                                        data-src="custom_slider/static/src/images/success-stories/story4.jpg?t=1737707207153"
+                                        title="story4"
+                                        src="custom_slider/static/src/images/success-stories/story4.jpg?t=1737707207153" />
+                                </div>
+                            </div>
+                            <div class="card__contents">
+                                <div class="card__content active">
+                                    <h3 class="card__title">MILESIGHT SMART GREEN BUILDING</h3>
+                                    <p class="card__text">Milesight's Smart Green Building presents
+                                        a state-of-the-art solution that achieves annual savings of
+                                        $45,000 by enhancing energy efficiency.</p>
+                                    <a class="card__btn" href="#">Learn More</a>
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Milesight Surveillance Solution in
+                                        Thailand</h3>
+                                    <p class="card__text">The excellent performance of Milesight
+                                        products and the ease of implementation of Milesight system
+                                        greatly meet the high standard requirements.</p>
+                                    <a class="card__btn" href="#">Learn More</a>
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Milesight Security System in Vietnam</h3>
+                                    <p class="card__text">At the luxury Sunwah Pearl Binh Thanh
+                                        Apartment, Vietnam, Milesight products are deployed to
+                                        protect safety of residents and employees.</p>
+                                    <a class="card__btn" href="#">Learn More</a>
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">School IAQ Monitoring</h3>
+                                    <p class="card__text">Milesight 47,000 IAQ sensors create a
+                                        healthier learning environment in Canadian schools.</p>
+                                    <a class="card__btn" href="#">Learn More</a>
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Energy-Efficient Building in Canada</h3>
+                                    <p class="card__text">Milesight 4,400 sensors energize 62
+                                        buildings and campus in Canada, saving over $1,000,000
+                                        annual engergy cost.</p>
+                                    <a class="card__btn" href="#">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories__btn">
+                    <a href="/company/success-stories/">
+                        <span>LEARN MORE </span>
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </template>
+
+</odoo>
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_carousel_snippet" name="Reservation Snippet">
+        <section class="reservation">
+            <h2>Book a Table</h2>
+            <p>Reserve your spot easily online and enjoy a night to remember.</p>
+            <a href="/booking" class="btn secondary">Make a Reservation</a>
+        </section>
+    </template>
+</odoo> -->
