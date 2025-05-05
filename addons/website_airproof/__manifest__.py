@@ -8,7 +8,7 @@
    'license': 'LGPL-3',
    'depends': ['website'],
    'data': [
-      'data/website.xml',
+      # 'data/website.xml',
       'views/custom_header.xml',
       'views/hero_section.xml',
       'views/layout.xml',
