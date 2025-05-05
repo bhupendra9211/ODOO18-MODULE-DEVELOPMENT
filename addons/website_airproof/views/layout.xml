@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="layout" inherit_id="website.layout" name="Welcome Message">
+        <xpath expr="//header" position="before">
+           welcome to our website
+        </xpath>
+        <xpath expr="//ul" position="inside">
+         <li>Last element of the list</li>
+      </xpath>      
+     </template>
+</odoo>
