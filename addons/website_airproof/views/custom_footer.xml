@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_footer" inherit_id="website.layout" name="My Custom Footer">
+        <xpath expr="//footer" position="inside">
+            <div class="copyright">© 2024 Bhupendra Kumar Sah</div>
+         </xpath>
+    </template>
+</odoo>

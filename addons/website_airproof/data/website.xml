@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This suggests it's part of a custom module's data directory, which is used to load data into Odoo when the module is installed or updated. -->
+<odoo noupdate="1">
+   <record id="website_airproof.default_website" model="website">
+      <field name="name">Airproof Bhupendra Odoo djfhjkdh</field>
+      <field name="logo" type="base64" file="/website_airproof/static/src/img/content/logo_pred.png"/>
+      <field name="favicon" type="base64" file="website_airproof/static/description/favicon.png" />
+      <!-- <field name="shop_ppg">18</field>
+      <field name="shop_ppr">3</field>
+      <field name="cookies_bar" eval="True" />
+      <field name="contact_us_button_url">/contact-us</field>
+      <field name="social_facebook">https://www.facebook.com/Airproof</field>
+      <field name="social_facebook">https://www.facebook.com/Airproof</field>
+      <field name="social_facebook">https://www.facebook.com/Airproof</field>
+      <field name="social_instagram">https://www.instagram.com/airproof</field>
+      <field name="social_linkedin">https://www.linkedin.com/company/airproof</field>
+      <field name="social_youtube">https://www.youtube.com/c/airproof</field> -->
+   </record>
+</odoo>
