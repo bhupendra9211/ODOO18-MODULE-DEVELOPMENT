@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <!-- <template id="custom_hero" inherit_id="website.homepage" name="Home">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'" />
+                <div id="wrap" class="oe_structure">
+
+
+                    <h1 class="display-1">Heading 1 with Display Heading 1 size</h1>
+                    <h1 class="display-2">Heading 1 with Display Heading 2 size</h1>
+                    <h1 class="display-3">Heading 1 with Display Heading 3 size</h1>
+                    <h1 class="display-4">Heading 1 with Display Heading 4 size</h1>
+
+
+                    <p class="lead">A text typically used as an introduction.</p>
+
+
+                    <p class="o_small">Body text with a smaller size.</p>
+
+                    
+
+                    <h2>
+                        <span class="h1-fs">Heading</span>
+                    </h2>
+
+
+                    <h2>
+                        <span class="h2-fs">Heading</span>
+                    </h2>
+                    <h2>
+                        <span class="h3-fs">Heading</span>
+                    </h2>
+                    <h2>
+                        <span class="h4-fs">Heading</span>
+                    </h2>
+                    <h2>
+                        <span class="h5-fs">Heading</span>
+                    </h2>
+                    <h2>
+                        <span class="h6-fs">Heading</span>
+                    </h2>
+
+
+                    <h2>
+                        <span class="base-fs">Heading</span>
+                    </h2>
+
+
+                    <h2>
+                        <span class="o_small-fs">Heading</span>
+                    </h2>
+                    <h2>
+                        <span class="o_small-fs">Heading</span>
+                    </h2>
+
+                </div>
+            </t>
+        </xpath>
+    </template> -->
+</odoo>
