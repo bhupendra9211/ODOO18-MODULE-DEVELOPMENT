@@ -10,4 +10,12 @@ patch(ControlButtons.prototype, {
             body: _t("Choose the alert type"),
         });
     },
+
+    // New loyalty points method
+    async onClickLoyalty() {
+        this.dialog.add(AlertDialog, {
+            title: _t("Loyalty Points"),
+            body: _t("Customer has 150 points"),
+        });
+    },
 });

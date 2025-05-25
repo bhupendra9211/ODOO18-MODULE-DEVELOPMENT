@@ -5,6 +5,11 @@
              <button class="btn btn-secondary btn-lg py-5" t-on-click="() => this.onClickPopup()">
                  <i class="fa fa-pencil-square me-1" role="img" aria-label="Custom Alert" title="Custom Alert"/>Custom PopUp
              </button>
+            <!-- New Loyalty Points Button -->
+            <button class="btn btn-info btn-lg py-5 ms-2" 
+                    t-on-click="() => this.onClickLoyalty()">
+            <i class="fa fa-star me-1"/>Check Loyalty
+            </button>
         </xpath>
     </t>
 </templates>
