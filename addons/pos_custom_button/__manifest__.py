@@ -25,6 +25,9 @@ This module allows you to add a custom button in the Point of Sale interface.
             # 'pos_discount/static/src/**/*',
             'pos_custom_button/static/src/js/custom_button.js',
             'pos_custom_button/static/src/xml/custom_button.xml',
+
+            'pos_custom_button/static/src/js/discount_button.js',
+            'pos_custom_button/static/src/xml/discount_button.xml',
         ],
         'web.assets_tests': [
             # 'pos_discount/static/tests/tours/**/*',
